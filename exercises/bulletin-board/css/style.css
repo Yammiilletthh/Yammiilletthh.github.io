@@ -1,0 +1,68 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: #ffe0a3e7;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+
+.post-it-2 {
+    background-color: #fffcf5;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+
+.post-it-3 {
+    background-color: #ffaef0;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.post-it-4 {
+    background-color: #aee8ff;
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.post-it-5 {
+    background-color: #b5f396;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    margin: 24px;
+    padding: 24px;
+    font-family: inherit;
+}
+
+.post-it-6 {
+    background-color: #f3aa96;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 100px;
+    margin: 24px;
+    padding: 24px;
+    font-family: inherit;
+}

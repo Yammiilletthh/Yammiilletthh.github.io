@@ -1,0 +1,13 @@
+div {
+    border: 10px dashed rgb(101, 101, 255);
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: rgb(192, 219, 244);
+}
+
+p {
+    background-color: cornflowerblue;
+    margin: 60px;
+    padding: 48px 60px;
+    border-radius: 48px;
+}
