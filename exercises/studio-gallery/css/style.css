@@ -1,0 +1,54 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    
+}
+.frame-1 {
+    border: 10px solid white;
+    margin: 70px 14px 0px;
+    width: 80px;
+    box-shadow: -5px 5px 5px grey;
+}
+.frame-1 div{
+    padding: 12px;
+    background-color: rgb(158, 158, 158);
+    box-shadow: inset -5px 5px 5px grey;
+}
+.frame-1 img {
+    border: 0.175px solid rgb(138, 138, 138);
+}
+.frame-2 {
+    border: 10px solid white;
+    margin: 70px 14px 0px;
+    width: 80px;
+    box-shadow: -5px 5px 5px grey;
+}
+.frame-2 div{
+    padding: 12px;
+    background-color: rgb(158, 158, 158);
+    box-shadow: inset -5px 5px 5px grey;
+}
+.frame-2 img {
+    border: 0.175px solid rgb(138, 138, 138);
+}
+.frame-3 {
+    border: 10px solid white;
+    margin: 70px 14px 0px;
+    width: 80px;
+    box-shadow: -5px 5px 5px grey;
+}
+.frame-3 div{
+    padding: 12px;
+    background-color: rgb(158, 158, 158);
+    box-shadow: inset -5px 5px 5px grey;
+}
+.frame-3 img {
+    border: 0.175px solid rgb(138, 138, 138);
+}
