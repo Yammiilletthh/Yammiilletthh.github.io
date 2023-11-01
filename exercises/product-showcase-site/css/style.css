@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.red-color {
+    background-color: #ff2200c5;
+}
+.black-set {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 4px dashed rgb(134, 208, 254);
+    border-right: 4px dashed rgb(134, 208, 254);
+    background-color: white;
+}
+.white-color {
+    background-color: rgb(134, 208, 254);
+}
+.white-set {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 4px dashed  #ff2200c5;
+    border-right: 4px dashed #ff2200c5 ;
+    background-color: white;
+}
+.blue-color {
+    background-color: #ff2200c5;
+}
+.video-game {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 4px dashed rgb(134, 208, 254);
+    border-right: 4px dashed rgb(134, 208, 254);
+    background-color: white;
+}
