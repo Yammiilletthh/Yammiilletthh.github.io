@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contents {
+    display: flex;
+}
+#sidebar-content {
+    background-color: #ffeffd;
+    width: 250px;
+    padding: 24px;
+    margin-right: 23px;
+}
+#sidebar-content h2 {
+    border-bottom: 2px dashed #ff74e1;
+    padding-bottom: 8px;
+    text-align: center;
+    color: blue;
+}
+#sidebar-content ul {
+    list-style: circle;
+    color: #ff74e1;
+    padding: 0px;
+}
+#main-content h1 {
+    color: #ff74e1;
+    text-align: center;
+}
+#main-content h3 {
+    color: blue;
+}
+img {
+    width: 200px;
+}
