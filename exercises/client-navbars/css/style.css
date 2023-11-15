@@ -57,13 +57,44 @@ body {
     font-weight: bolder;
 }
 #navbar-level2 {
-    background: rgb(87, 87, 87);
+    background: linear-gradient(to bottom, red, orange);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     font-size: larger;
     color: rgb(0, 0, 0);
     font-weight: bolder;
+}
+#navbar-level2 a {
+    text-decoration: none;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar-level2 .cta-button {
+    background: rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 10px 24px;
+    font-size: 20px;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 0px;
+    font-weight: bolder;
 
+}
+#navbar-level3 {
+    background-color: rgba(161, 4, 161, 0.873);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-style: oblique;
+}
+#navbar-level3 a {
+    text-decoration: none;
+    color: black;
+}
+#navbar-level2 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 20px;
 }
