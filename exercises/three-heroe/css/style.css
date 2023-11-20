@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    background-image: url("../images/vanonbeach.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: rgb(5, 24, 69);
+    padding-top: 5vh;
+}
+
+
+#hero-1 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-1 h4 {
+    font-size: 5vw;
+    margin: 0px 5vw 0px 0px;
+    color: rgb(255, 243, 9);
+}
+
+#hero-1 a {
+    font-size:2vw;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.856);
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 12PX;
+}
+#hero-2 {
+    background-image: url("../images/drink.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+#hero-2 h2 {
+    font-size: 9vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #063b00;
+}
+
+#hero-2 h4 {
+    font-size: 4vw;
+    margin: 0px 5vw 0px 0px;
+    color: #ea0000;
+}
+
+#hero-2 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #ea0000;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 12px;
+}
+#hero-3 {
+    background-image: url("../images/nature.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    color: aliceblue;
+}
+
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #0a5102;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
