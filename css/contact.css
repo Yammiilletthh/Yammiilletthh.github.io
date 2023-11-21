@@ -27,32 +27,3 @@ body {
     font-weight: bolder;
     color: #e0642f;
 }
-#layout h1 {
-    color: #ffffff;
-    background-color: rgba(20, 97, 20, 0.837);
-    border-radius: 12px;
-    font-family: fantasy;
-    padding: 2vh 0vh ;
-}
-#layout h3 {
-    color: #146014fe;
-    font-family: cursive;
-
-}
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-
-.horizontal-masonry-gal {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.horizontal-masonry-gallery img {
-    height: 250px;
-    flex: 1;
-    object-fit: cover;
-}
