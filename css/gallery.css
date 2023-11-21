@@ -6,42 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#hero-1 {
-    background-image: url("../images/green-2.jpg");
-    height: 40vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
-#hero-1 .hero-content {
-    position: absolute;
-    top: 5%;
-    left: 15%;
-    color: #e0642f;
-}
 
-#hero-1 h2 {
-    font-size: 2vw;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
-}
-
-#hero-1 p {
-    font-size: 2vw;
-    margin: 0px 5vw 0px 0px;
-    font-family: cursive;
-}
-
-#hero-1 a {
-    font-size: 2vw;
-    display: inline-block;
-    background-color: #e0642fe0;
-    color: white;
-    text-decoration: none;
-    padding: 14px;
-    margin: 3vh 3vw 5vh 0px;
-    border-radius: 12px;
-}
 #layout h1 {
     color: #ffffff;
     background-color: rgba(20, 97, 20, 0.837);
