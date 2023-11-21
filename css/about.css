@@ -29,12 +29,21 @@ body {
 }
 div.about-me {
     display: inline-block;
-    background-color: #afc8ff;
+    color: #146014;
+    font-size: 20px;
 }
+h2 {
+    font-family: fantasy;
+    color: #e0642f;
+    background-color: #146014;
+    padding: 12px;
+    text-align: center;
 
+}
 img {
     display: inline-block;
-    width: 20%;
+    width:40%;
+    padding: 12px;
 }
 @media screen and (max-width: 480px) {
     #navbar a {
