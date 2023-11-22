@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background: linear-gradient(to left, #eb7133, #ffc1a3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar #logo img {
+    width: 150px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+    
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar a:hover {
+    background: transparent;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-container:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-menu a {
+    background: #ffc1a3;
+    width: 100%;
+    min-width: 150px;
+}
+#navbar .dropdown-menu a:hover {
+    background: #eb7133;
+}
+#navbar .cta-buttom {
+    background-color:  white;
+    color: #eb7133;
+    border-radius: 15px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    margin-right: 20px;
+}
+#hero-1 {
+    background-image: url("../images/hero-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#hero-1 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+}
+#hero-1 h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero-1 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color:  #eb7133;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 15px;
+    margin: 5vh 15vw 10vh;
+}
+#main .promotion {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 25px auto;
+    height: 400px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.promotion h3 {
+    color: #eb7133;
+    font-size: 25px;
+    text-align: center;
+}
+.promotion h2 {
+    color: green;
+    font-size: 40px;
+    text-align: center;
+} 
+
+.promotion .img-container {
+    height: 100%;
+    flex: 1;
+}
+
+.promotion img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #008000;
+}
+
+.promotion .content {
+    flex: 1;
+}
+
+.cards a, .promotion a {
+    display: inline-block;
+    background-color: #eb7133;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.promotion a {
+    display: block;
+}
+
+.card h4 {
+    text-align: center;
+}
+#main .cards {
+    display: flex;
+    height: 400px;
+}
+.cards .card {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/salmon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#card-2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/flan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#footer {
+    background-color: #008000;
+}
+#footer h2 {
+    color: #eb7133;
+    font-size: 30px;
+}
+#footer .links {
+    max-width: 1000px;
+    margin: 0px auto;
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        display: flex;
+    }
+    #navbar a {
+        font-size: 2.75rem;   
+    }
+    #navbar .cta-buttom {
+        flex-direction: column;
+        font-size: 2.75rem;
+    }
+    .hero-content h1 {
+        font-size: 2.75rem;
+    }
+    .hero-content h3 {
+        font-size: 1.125rem;
+    }
+    #hero-1 h4 {
+        font-size: 1.125rem;
+    }
+    #hero-1 a {
+        font-size: 2.75rem;
+        flex-direction: column;
+    }
+    #main .cards {
+        flex-direction: column;
+        height: 100vh;
+    }
+    #main .promotion {
+        flex-direction: column;
+    }
+    #footer .links {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        font-size: 1.125rem;
+        position: static;
+     }
+    .hero-content h1 {
+        font-size: 1.625rem;
+    }
+    .hero-content h3 {
+        font-size: 1rem;
+    }
+    .hero-content a {
+        display: block;
+        font-size: 1.125rem;
+    }
+    .promotion img {
+        width: 200px;
+        height: 200px;
+    }
+    .promotion .img-container {
+        height: 200px;
+        width: 100%;
+        flex: auto;
+    }
+    #footer .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
