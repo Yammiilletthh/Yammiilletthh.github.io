@@ -172,7 +172,7 @@ body {
 }
 
 #card-1 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/salmon.jpg);
+    background: linear-gradient(to top, #000000b3, rgba(0, 0, 0, 0.7)), url(../images/salmon.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -203,6 +203,82 @@ body {
     font-size: 15px;
     
 }
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background: linear-gradient(#008000, #0080002b);
+    border-radius: 10px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+#items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h3 {
+    text-align: center;
+    margin: 24px 0;
+}
+#items {
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+}
+.card-items {
+    width: 350px;
+    margin: 5px; 
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #d0edd0; 
+}
+
+.card-items h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card-items p {
+    font-size: 18px;
+}
+
+.anchor-button {
+    display: block;
+    background-color: white;
+    color: #eb7133;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid white;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.anchor-button:hover {
+    background-color: transparent;
+    color: green;
+}
+
 
 @media screen and (max-width: 768px) {
     #navbar {
