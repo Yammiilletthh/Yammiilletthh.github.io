@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 #navbar {
-    background: linear-gradient(to bottom, rgb(38, 121, 22), hsl(0, 0%, 97%));
+    background: linear-gradient(to bottom, #267916, #182e13);
     display: flex;
     align-items: center;
 }
@@ -16,7 +16,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
-    color: #e0642fe0;
+    color: white;
     padding: 24px;
 }
 
@@ -25,10 +25,10 @@ body {
     font-size: 30px;
     font-family: fantasy;
     font-weight: bolder;
-    color: #e0642f;
+    color: white;
 }
 #hero-1 {
-    background-image: url("../images/green-2.jpg");
+    background-image: url("../images/self.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -38,7 +38,7 @@ body {
     position: absolute;
     top: 25%;
     left: 15%;
-    color: #e0642f;
+    color: white;
     
 }
 
@@ -58,7 +58,7 @@ body {
 #hero-1 a {
     font-size: 2vw;
     display: inline-block;
-    background-color: #e0642fe0;
+    background-color: #267916;
     color: white;
     text-decoration: none;
     padding: 24px;

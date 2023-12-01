@@ -5,9 +5,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
 }
 #navbar {
-    background: linear-gradient(to bottom, rgb(38, 121, 22), hsl(0, 0%, 97%));
+    background: linear-gradient(to bottom, #267916, #182e13);
     display: flex;
     align-items: center;
 }
@@ -16,7 +17,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
-    color: #e0642fe0;
+    color: white;
     padding: 24px;
 }
 
@@ -25,17 +26,17 @@ body {
     font-size: 30px;
     font-family: fantasy;
     font-weight: bolder;
-    color: #e0642f;
+    color: white;
 }
 #layout h1 {
-    color: #ffffff;
-    background-color: rgba(20, 97, 20, 0.837);
-    border-radius: 12px;
     font-family: fantasy;
-    padding: 2vh 0vh ;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
 }
 #layout h3 {
-    color: #146014fe;
+    color: white;
     font-family: cursive;
 
 }
