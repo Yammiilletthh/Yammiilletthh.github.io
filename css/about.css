@@ -29,9 +29,10 @@ body {
     color: white;
 }
 div.about-me {
-    display: inline-block;
+    display: flex;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 20px;
 }
 h2 {
     font-family: fantasy;
@@ -42,17 +43,28 @@ h2 {
 
 }
 img {
-    display: inline-block;
-    width:40%;
-    padding: 12px;
+    display: flex;
+    width:300px;
+   padding: 5px;
 }
+.skills img {
+    display: flex;
+    width: 500px;
+}
+div.skills {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
 @media screen and (max-width: 480px) {
     #navbar a {
         font-size: 0.3rem;
         display: block;
     }
     #navbar #logo {
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: block;
     }
 }

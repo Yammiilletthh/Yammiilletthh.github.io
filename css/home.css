@@ -71,10 +71,10 @@ body {
         display: block;
     }
     #navbar #logo {
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: block;
     }
     #hero-1 h1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
