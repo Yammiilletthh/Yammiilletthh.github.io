@@ -28,6 +28,22 @@ body {
     font-weight: bolder;
     color: white;
 }
+.prompt img {
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    border-radius: white 20px;
+}
+.social-media h2 {
+    color: white;
+    text-decoration: underline;
+    font-family: serif;
+    display: flex;
+}
+.links a {
+    text-decoration: none;
+    display: flex;
+}
 
 @media screen and (max-width: 480px) {
     #navbar a {

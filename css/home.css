@@ -148,4 +148,13 @@ body {
     #hero-1 h1 {
         font-size: 0.9rem;
     }
+    .card-container {
+        display: block;
+    }
+    #card-section {
+       display: block;
+    }
+    
+   
+    
 }
