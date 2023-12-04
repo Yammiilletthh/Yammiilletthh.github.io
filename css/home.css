@@ -23,7 +23,7 @@ body {
 #navbar #logo {
     margin-right: auto;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: serif;
     font-weight: bolder;
     color: white;
 }
@@ -67,7 +67,7 @@ body {
 }
 @media screen and (max-width: 480px) {
     #navbar a {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         display: block;
     }
     #navbar #logo {
