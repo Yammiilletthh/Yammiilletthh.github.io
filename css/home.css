@@ -43,15 +43,15 @@ body {
 }
 
 #hero-1 h1 {
-    font-size: 4vw;
+    font-size: 50px;
     margin-bottom: 5vh;
     margin-right: 5vw;
     font-family: fantasy;
 }
 
 #hero-1 p {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    font-size: 30px;
+    margin: 0px 10px 0px 0px;
     font-family: cursive;
 }
 
