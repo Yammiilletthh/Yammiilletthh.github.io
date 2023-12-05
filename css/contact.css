@@ -31,7 +31,7 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
-    margin: 10px 0px;
+    margin: 0px 20px;
 }
 .side-by-side .image-container {
     flex: 2;
@@ -43,18 +43,18 @@ body {
 }
 
 .side-by-side .image-container img {
-    width: 100%;
+    width: 600px;
 }
 
 .side-by-side .text-container h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: underline;
     color: rgb(255, 255, 255);
     padding: 6px;
     font-family: serif;
 }
 .side-by-side .text-container a {
-    font-size: 20px;
+    font-size: 30px;
     font-family: serif;
     text-decoration: none;
     margin: 9px;
@@ -71,5 +71,11 @@ body {
         font-size: 0.9rem;
         display: block;
     }
-    
+    .side-by-side {
+        display: block;
+    }
+    .side-by-side .image-container img {
+        width: 300px;
+    }
+
 }
