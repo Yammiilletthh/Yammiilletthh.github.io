@@ -71,7 +71,8 @@ div.skills {
     .about-me img {
         display: block;
         width: 150px;
-        margin-left: 90px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .skills img {
         display: block;
@@ -82,7 +83,8 @@ div.skills {
     div.skills {
         display: block;
         color: white;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     div.about-me {
         display: block;

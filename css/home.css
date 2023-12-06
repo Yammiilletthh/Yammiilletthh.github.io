@@ -136,10 +136,10 @@ body {
         display: block;
     }
     #hero-1 h1 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     #hero-1 p {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
     .card-container {
         display: block;
@@ -147,7 +147,7 @@ body {
     }
     #hero-1 {
         height: 400px;
-        width: 364px;
+        width: 374px;
     }
     #hero-1 a {
         font-size: 0.6rem;
