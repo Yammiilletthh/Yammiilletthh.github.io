@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #000000;
 }
 #navbar {
     background: linear-gradient(to bottom, #267916, #182e13);
@@ -73,13 +74,13 @@ body {
 }
 
 #hero-1:hover a {
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     box-shadow: 4px 4px 4px #f6f6f633;
     transform: translateY(-4px);
 }
 
 #card-section {
-    background-color: #161616;
+    background-color: #000000;
     color: #f5f5f5;
     padding: 48px;
 }
@@ -101,12 +102,12 @@ body {
 }
 
 .card a {
-    font-size: 16px;
+    font-size: 15px;
     display: inline-block;
     background-color: #267916;
     color: white;
     text-decoration: none;
-    padding: 26px;
+    padding: 17px;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +125,25 @@ body {
     box-shadow: 4px 4px 4px #f6f6f633;
     transform: translateY(-4px);
 }
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    color: #267916;
+    font-family: fantasy;
+    
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    background-color: #090909;
+    gap: 10px;
+}
 
+.basic-grid-gallery img {
+    width: 100%;
+}
 
 @media screen and (max-width: 480px) {
     #navbar a {
@@ -155,4 +174,12 @@ body {
     .card a {
         font-size: 0.6rem;
     }
+    #layout {
+        max-width: 400px;
+        
+    }
+    .basic-grid-gallery {
+        display: block;
+    }
+    
 }
