@@ -29,7 +29,7 @@ body {
 }
 #hero-1 {
     background-image: url("../images/self.jpg");
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -44,8 +44,8 @@ body {
 
 #hero-1 h1 {
     font-size: 50px;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
+    margin-bottom: 40px;
+    margin-right: 20px;
     font-family: fantasy;
 }
 
