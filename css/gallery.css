@@ -70,4 +70,7 @@ body {
         font-size: 0.9rem;
         display: block;
     }
+    .horizontal-masonry-gal {
+        display: block;
+    }
 }
