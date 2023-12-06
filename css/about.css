@@ -70,12 +70,12 @@ div.skills {
     }
     img {
         display: block;
-        width: 300px;
-        justify-content: center;
+        width: 150px;
     }
     .skills img {
         display: block;
         align-items: center;
+        width: 350px;
 
     }
     div.skills {
