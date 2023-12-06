@@ -107,7 +107,7 @@ body {
     background-color: #267916;
     color: white;
     text-decoration: none;
-    padding: 17px;
+    padding: 20px;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -130,8 +130,7 @@ body {
     margin: 48px auto;
     text-align: center;
     color: #267916;
-    font-family: fantasy;
-    
+    font-family: fantasy;  
 }
 .basic-grid-gallery {
     display: grid;
@@ -176,6 +175,7 @@ body {
     }
     #layout {
         max-width: 400px;
+        font-size: 0.7rem;
         
     }
     .basic-grid-gallery {
