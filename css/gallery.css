@@ -49,7 +49,7 @@ body {
 .horizontal-masonry-gal {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
 }
 
 .horizontal-masonry-gallery img {
@@ -72,5 +72,9 @@ body {
     }
     .horizontal-masonry-gal {
         display: block;
+
+    }
+    #layout img {
+        max-width: 400px;
     }
 }
