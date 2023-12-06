@@ -63,11 +63,6 @@ body {
     color: white;
     justify-items: center;
 }
-.text-container  h1 {
-    color: #267916;
-    text-align: center;
-    font-family: fantasy;
-}
 
 
 @media screen and (max-width: 480px) {
@@ -84,8 +79,5 @@ body {
     }
     .side-by-side .image-container img {
         width: 300px;
-    }
-    .text-container  h1 {
-        font-size: 0.3rem;
     }
 }
