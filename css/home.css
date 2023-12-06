@@ -136,7 +136,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 24px;
-    background-color: #090909;
+    background-color: #000000;
     gap: 10px;
 }
 
