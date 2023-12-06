@@ -70,13 +70,18 @@ div.skills {
     }
     img {
         display: block;
+        width: 300px;
+        justify-content: center;
     }
     .skills img {
         display: block;
+        align-items: center;
+
     }
     div.skills {
         display: block;
         color: white;
+        justify-content: center;
     }
     div.about-me {
         display: block;
