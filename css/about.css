@@ -40,7 +40,6 @@ h2 {
     padding: 15px;
     text-align: center;
     font-size: 30px;
-
 }
 img {
     display: flex;
@@ -81,5 +80,8 @@ div.skills {
     }
     div.about-me {
         display: block;
+    }
+    h2 {
+        font-size: 0.9rem;
     }
 }
