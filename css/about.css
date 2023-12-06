@@ -44,17 +44,20 @@ h2 {
 }
 img {
     display: flex;
-    width: 300px;
+    width: 400px;
 }
 .skills img {
     display: flex;
     width: 300px;
+    padding: 20px;
+    justify-items: center;
 }
 div.skills {
     display: flex;
     color: white;
     font-size: 20px;
     padding-left: 20px;
+   justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
