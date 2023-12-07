@@ -94,7 +94,7 @@ h2 {
     border-bottom: 0px;
 }
 img {
-    width: 700px;
+    width: 850px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -136,5 +136,8 @@ img {
     #grid-layout {
         display: block;
 
+    }
+    img {
+        width: 150px;
     }
 }
