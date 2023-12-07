@@ -126,7 +126,7 @@ body {
     transform: translateY(-4px);
 }
 #layout {
-    max-width: 800px;
+    max-width: 900px;
     margin: 48px auto;
     text-align: center;
     color: #267916;
@@ -142,6 +142,8 @@ body {
 
 .basic-grid-gallery img {
     width: 100%;
+    padding: 5px;
+    background-color: #f5f5f5;
 }
 
 @media screen and (max-width: 480px) {

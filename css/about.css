@@ -28,22 +28,25 @@ body {
     font-weight: bolder;
     color: white;
 }
-div.about-me {
-    display: flex;
+.about-me p {
+    display: block;
     color: white;
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
 }
 h2 {
     font-family: fantasy;
-    color: #267916;
+    color: #fdfdfd;
+    text-decoration: underline green;
     padding: 15px;
     text-align: center;
     font-size: 30px;
 }
 .about-me img {
-    display: flex;
+   display: block;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #grid-layout {

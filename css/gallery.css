@@ -28,20 +28,8 @@ body {
     font-weight: bolder;
     color: white;
 }
-#layout h1 {
-    font-family: fantasy;
-    color: #267916;
-    padding: 15px;
-    text-align: center;
-    font-size: 30px;
-}
-#layout h3 {
-    color: white;
-    font-family: serif;
-
-}
 #layout {
-    max-width: 800px;
+    max-width: 900px;
     margin: 48px auto;
     text-align: center;
     
@@ -54,10 +42,13 @@ body {
 }
 
 .horizontal-masonry-gallery img {
-    height: 250px;
+    height: 400px;
     flex: 1;
     object-fit: cover;
+    padding: 6px;
+    background-color: #fbfbfb;
 }
+
 
 @media screen and (max-width: 480px) {
     #navbar a {
