@@ -40,24 +40,25 @@ body {
     font-family: serif;
 
 }
-
 #layout {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
+    
 }
 
-.vertical-masonry-gallery {
-    display: flex;
-    flex-direction: column;
+.horizontal-masonry-gallery {
+    display: block;
     flex-wrap: wrap;
     gap: 20px;
-    max-height: 1100px;
 }
 
-.vertical-masonry-gallery img {
-    width: 33.33%;
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
 }
+
 @media screen and (max-width: 480px) {
     #navbar a {
         font-size: 0.3rem;
@@ -70,5 +71,12 @@ body {
     #layout h1 {
         font-size: 0.9rem;
         display: block;
+    }
+    .horizontal-masonry-gallery {
+        display: block;
+
+    }
+    #layout img {
+        max-width: 355px;
     }
 }
