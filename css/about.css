@@ -63,18 +63,17 @@ h2 {
 #grid-layout h2 {
     font-family: fantasy;
     margin: 0px;
-    padding: 12px;
+    padding: 1px;
     color: white;
-    font-size: 18px;
-    border: 1px solid #000000;
-    background-color: #267916;
+    font-size: 20px;
+    border-bottom: 4px solid #267916;
 }
 #grid-layout ul {
-    background-color: #020202;
-    border: 1px solid #267916;
+    background-color: #000000;
     margin: 0px 0px 36px; 
     list-style-type: none;
     padding: 0px 12px;
+    text-align: center;
 }
 #grid-layout a {
     color: white;
@@ -87,14 +86,8 @@ h2 {
     color: white;
 }
 
-#grid-layout li:last-child {
-    border-bottom: 0px;
-}
-#grid-layout h2:first-child {
-    border-bottom: 0px;
-}
 img {
-    width: 850px;
+    width: 600px;
     display: block;
     margin-right: auto;
     margin-left: auto;
