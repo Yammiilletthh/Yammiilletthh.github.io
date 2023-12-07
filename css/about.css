@@ -65,15 +65,15 @@ h2 {
     margin: 0px;
     padding: 1px;
     color: white;
-    font-size: 20px;
-    border-bottom: 4px solid #267916;
+    font-size: 30px;
+    text-decoration: underline green;
 }
 #grid-layout ul {
     background-color: #000000;
     margin: 0px 0px 36px; 
     list-style-type: none;
     padding: 0px 12px;
-    text-align: center;
+    
 }
 #grid-layout a {
     color: white;
@@ -81,7 +81,7 @@ h2 {
 }
 
 #grid-layout li {
-    border-bottom: 1px solid #267916;
+    text-align: center;
     padding: 8px 0px;
     color: white;
 }
