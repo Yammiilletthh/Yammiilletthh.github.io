@@ -45,18 +45,61 @@ h2 {
     display: flex;
     width: 200px;
 }
-.skills img {
-    display: flex;
-    width: 300px;
-    padding: 20px;
-    justify-items: center;
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas: "content sidebar";
+    padding: 60px;
 }
-div.skills {
-    display: flex;
+#hard-skills {
+    grid-area: sidebar;
+}
+
+#soft-skills{
+    grid-area: content;
+}
+
+#grid-layout h2 {
+    font-family: fantasy;
+    margin: 0px;
+    padding: 12px;
     color: white;
-    font-size: 20px;
-    padding-left: 20px;
-   justify-content: center;
+    font-size: 18px;
+    border: 1px solid #000000;
+    background-color: #267916;
+}
+#grid-layout ul {
+    background-color: #020202;
+    border: 1px solid #267916;
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#grid-layout a {
+    color: white;
+    text-decoration: none;
+}
+
+#grid-layout li {
+    border-bottom: 1px solid #267916;
+    padding: 8px 0px;
+    color: white;
+}
+
+#grid-layout li:last-child {
+    border-bottom: 0px;
+}
+#grid-layout h2:first-child {
+    border-bottom: 0px;
+}
+img {
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -89,5 +132,9 @@ div.skills {
     }
     h2 {
         font-size: 0.9rem;
+    }
+    #grid-layout {
+        display: block;
+
     }
 }
