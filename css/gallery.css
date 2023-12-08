@@ -28,28 +28,35 @@ body {
     font-weight: bolder;
     color: white;
 }
+#layout h1 {
+    font-family: fantasy;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+#layout h3 {
+    color: white;
+    font-family: serif;
+
+}
 #layout {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 48px auto;
     text-align: center;
-    
 }
 
-.horizontal-masonry-gallery {
-    display: block;
+.horizontal-masonry-gal {
+    display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .horizontal-masonry-gallery img {
-    height: 400px;
+    height: 300px;
     flex: 1;
     object-fit: cover;
-    padding: 6px;
-    background-color: #fbfbfb;
 }
-
-
 @media screen and (max-width: 480px) {
     #navbar a {
         font-size: 0.3rem;
@@ -59,15 +66,8 @@ body {
         font-size: 0.9rem;
         display: block;
     }
-    #layout h1 {
-        font-size: 0.9rem;
+    #layout  {
         display: block;
     }
-    .horizontal-masonry-gallery {
-        display: block;
-
-    }
-    #layout img {
-        max-width: 355px;
-    }
+    
 }
