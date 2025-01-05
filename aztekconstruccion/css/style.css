@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #fefefe;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("../images/remodeling_background.jpg");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 5px;    /* if you want it vertically middle of the navbar. */
+}
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+  
+  /* The navbar */
+.topnav {
+    margin: 10px;
+    overflow: hidden;
+    background-color: #B8490B;
+    float: right;
+ }
+  
+  /* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+h1{
+    color: #B8490B;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 200;
+    color: lightslategray;
+}
+.content a{
+    display: inline-block;
+}
+
